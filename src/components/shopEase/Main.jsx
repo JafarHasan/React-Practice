@@ -1,11 +1,13 @@
-import productData from './data.json';
 import ProductCard from './ProductCard';
+import { ProductContext } from './contextSwitching/ProductContext';
+import { useContext } from 'react';
 const Main = () => {
+    const { filteredProducts } = useContext(ProductContext);
     return (
         <>
             <div className="p-5 m-5 grid md:grid-cols-2 lg:grid-cols-3 gap-10 items-center justify-between ">
                 {
-                    productData.map((product) => (
+                    filteredProducts.map((product) => (
                         <ProductCard key={product.id}
                             product={product} />
                     ))

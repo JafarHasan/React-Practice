@@ -8,11 +8,17 @@ const ProductCard = ({ product }) => {
                 ></img>
                 <div className=" flex flex-col w-full p-3 gap-3">
                     <div className="flex justify-between">
-                        <h1 className="text-xl text-blue-600">{product.title}</h1>
+                        <h1 className="text-xl text-blue-600">
+                            {product.title}
+                        </h1>
                         <p className="text-yellow-500">★{product.rating}</p>
 
                     </div>
-                    <p>{product.category}</p>
+                    <div className="flex justify-between">
+                        <p>{product.category}</p>
+                        <p>{product.brand}</p>
+
+                    </div>
                     <p className="text-xl text-blue-600 font-bold">₹:{product.price}</p>
                     <button className="w-full p-4 bg-blue-600 text-white rounded hover:bg-white hover:text-blue-600 hover:border">Add to cart</button>
                 </div>
