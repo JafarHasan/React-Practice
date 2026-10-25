@@ -31,6 +31,9 @@ export const ProductProvider = ({ children }) => {
         if (!newItem) return;
         setCartItems((prevCart) => [...prevCart, newItem])
     }
+    const handleRemoveCartItem = (id) => {
+        setCartItems(cartItems.filter((item) => item.id !== id));
+    }
     useEffect(() => {
         let filterCurrData = [...products];
         if (search.trim() !== "") {
@@ -71,6 +74,7 @@ export const ProductProvider = ({ children }) => {
                 setIsCartOpen,
                 handleCartOpenClose,
                 handleAddToCart,
+                handleRemoveCartItem,
 
             }}
         >

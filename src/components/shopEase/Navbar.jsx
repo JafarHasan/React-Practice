@@ -18,7 +18,7 @@ const Navbar = () => {
                     <button
                         onClick={handleCartOpenClose}
                         className="text-md font-bold border border-gray-400 p-3 rounded cursor-pointer"
-                    >{`Cart ${cartItems.length}`}</button>
+                    >{`Cart (${cartItems.length})`}</button>
                 </div>
                 <CartSidebar />
             </nav>

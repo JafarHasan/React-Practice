@@ -2,8 +2,11 @@ import { useContext } from "react";
 import { ProductContext } from "./contextSwitching/ProductContext";
 const ProductCard = ({ product }) => {
     const {
+        cartItems,
         handleAddToCart,
     } = useContext(ProductContext);
+
+    const isAdded = cartItems.some((item) => item.id === product.id);
     return (
         <>
             <div className="flex flex-col shadow-xl border border-gray-400 rounded ">
@@ -27,7 +30,8 @@ const ProductCard = ({ product }) => {
                     <p className="text-xl text-blue-600 font-bold">₹:{product.price}</p>
                     <button
                         onClick={() => handleAddToCart(product.id)}
-                        className="w-full p-4 bg-blue-600 text-white rounded hover:bg-white hover:text-blue-600 hover:border">Add to cart</button>
+                        disabled={isAdded}
+                        className={`w-full p-4 bg-blue-600 text-white rounded hover:bg-white hover:text-blue-600 hover:border ${isAdded ? "cursor-not-allowed bg-green-400 hover:bg-green-400" : ""}`}>{isAdded ? "Added to cart ✓" : "Add to cart"}</button>
                 </div>
 
             </div >

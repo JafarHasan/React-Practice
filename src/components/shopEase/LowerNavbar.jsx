@@ -34,22 +34,22 @@ const LowerNavbar = () => {
                 <div className="flex flex-col md:flex-row gap-3">
                     <button
                         onClick={() => setCategory("all")}
-                        className={`p-4 rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'all' ? "bg-blue-700 text-white " : "text-gray-500 bg-gray-200"}`}
+                        className={`p-2  rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'all' ? "bg-blue-700 text-white " : "text-gray-500 bg-gray-200"}`}
                     >All Products</button>
 
                     <button
                         onClick={() => setCategory("clothing")}
-                        className={`p-4 rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'clothing' ? "bg-blue-700 text-white " : "text-gray-500 bg-gray-200"}`}
+                        className={`p-2  rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'clothing' ? "bg-blue-700 text-white " : "text-gray-500 bg-gray-200"}`}
                     >Clothing</button>
 
                     <button
                         onClick={() => setCategory("electronics")}
-                        className={`p-4 rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'electronics' ? "bg-blue-700 text-white " : "text-gray-500 bg-gray-200"}`}
+                        className={`p-2  rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'electronics' ? "bg-blue-700 text-white " : "text-gray-500 bg-gray-200"}`}
                     >Electronics</button>
 
                     <button
                         onClick={() => setCategory("accessories")}
-                        className={`p-4 rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'accessories' ? "bg-blue-700 text-white " : "text-gray-500 bg-gray-200"}`}
+                        className={`p-2  rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'accessories' ? "bg-blue-700 text-white " : "text-gray-500 bg-gray-200"}`}
                     >Accessories</button>
                 </div>
             </nav>
