@@ -9,6 +9,8 @@ export const ProductProvider = ({ children }) => {
 
     const [filteredProducts, setFilteredProducts] = useState(productData);
 
+    const [cartItems, setCartItems] = useState([]);
+
     //Searching data
     const [search, setSearch] = useState("");
 
@@ -18,6 +20,17 @@ export const ProductProvider = ({ children }) => {
     //sorting
     const [sortBy, setSortBy] = useState("default");
 
+    const [isCartOpen, setIsCartOpen] = useState(false);
+
+    const handleCartOpenClose = () => {
+        setIsCartOpen((prev) => !prev);
+    };
+
+    const handleAddToCart = (id) => {
+        const newItem = filteredProducts.find((item) => item.id === id);
+        if (!newItem) return;
+        setCartItems((prevCart) => [...prevCart, newItem])
+    }
     useEffect(() => {
         let filterCurrData = [...products];
         if (search.trim() !== "") {
@@ -51,7 +64,14 @@ export const ProductProvider = ({ children }) => {
                 category,
                 setCategory,
                 sortBy,
-                setSortBy
+                setSortBy,
+                cartItems,
+                setCartItems,
+                isCartOpen,
+                setIsCartOpen,
+                handleCartOpenClose,
+                handleAddToCart,
+
             }}
         >
             {children}

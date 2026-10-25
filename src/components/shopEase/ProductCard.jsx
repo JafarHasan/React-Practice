@@ -1,4 +1,9 @@
+import { useContext } from "react";
+import { ProductContext } from "./contextSwitching/ProductContext";
 const ProductCard = ({ product }) => {
+    const {
+        handleAddToCart,
+    } = useContext(ProductContext);
     return (
         <>
             <div className="flex flex-col shadow-xl border border-gray-400 rounded ">
@@ -20,7 +25,9 @@ const ProductCard = ({ product }) => {
 
                     </div>
                     <p className="text-xl text-blue-600 font-bold">₹:{product.price}</p>
-                    <button className="w-full p-4 bg-blue-600 text-white rounded hover:bg-white hover:text-blue-600 hover:border">Add to cart</button>
+                    <button
+                        onClick={() => handleAddToCart(product.id)}
+                        className="w-full p-4 bg-blue-600 text-white rounded hover:bg-white hover:text-blue-600 hover:border">Add to cart</button>
                 </div>
 
             </div >
