@@ -9,7 +9,6 @@ const CartSidebar = () => {
         handleCartOpenClose,
         handleRemoveCartItem,
     } = useContext(ProductContext);
-    const [cartTotal, setCartTotal] = useState(0);
     const calculateCartTotal = () => {
         const sum = cartItems.reduce((acc, item) => {
             acc += item.price;
@@ -19,10 +18,12 @@ const CartSidebar = () => {
     }
     return (
         <nav
-            className={`fixed top-0 right-0 z-50 h-screen w-70 max-w-full
-                bg-white shadow-xl p-5  overflow-y-auto
-                transition-transform duration-300 ease-in-out flex flex-col items-center
-                ${isCartOpen ? "translate-x-0" : "translate-x-full"}`}
+            className={`fixed top-0 right-0 z-50 h-screen
+    w-80 max-w-full box-border overflow-x-hidden overflow-y-auto
+    bg-white shadow-xl p-5
+    transition-transform duration-300 ease-in-out
+    flex flex-col
+    ${isCartOpen ? "translate-x-0" : "translate-x-full"}`}
         >
             <div className="flex items-center justify-between mb-6 gap-10">
                 <h2 className="text-xl font-bold">Your Cart ({cartItems.length})</h2>
@@ -51,7 +52,7 @@ const CartSidebar = () => {
                         <img
                             src={cartItem.image}
                             alt={cartItem.title}
-                            className="w-full h-50 object-cover"
+                            className="w-full h-48 object-cover"
                         />
                         <div className="flex justify-between">
                             <h1 className="text-lg text-blue-600">
@@ -69,14 +70,14 @@ const CartSidebar = () => {
 
                         <button
                             onClick={() => handleRemoveCartItem(cartItem.id)}
-                            className={` w-full p-1 rounded  hover:bg-blue-700text-sm text-white bg-blue-700 border cursor-pointer `}>Remove</button>
+                            className={` w-full p-1 rounded  hover:bg-blue-700 text-sm text-white bg-blue-700 border cursor-pointer `}>Remove</button>
                     </div>
                 ))
 
             )}
 
             {/* Cart Summary */}
-            <div className="w-60 mt-6 p-4 bg-gray-100 rounded-lg border border-gray-300">
+            <div className="w-68 mt-6 p-4 bg-gray-100 rounded-lg border border-gray-300">
                 <h2 className="text-lg font-bold mb-4">
                     Cart Summary
                 </h2>

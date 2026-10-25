@@ -9,25 +9,25 @@ const ProductCard = ({ product }) => {
     const isAdded = cartItems.some((item) => item.id === product.id);
     return (
         <>
-            <div className="flex flex-col shadow-xl border border-gray-400 rounded ">
+            <div className="flex flex-col shadow-xl border border-gray-400 rounded bg-white">
                 <img
                     src={`${product.image}`}
-                    className="w-full h-80 object-cover "
+                    className="w-full h-60 object-cover "
                 ></img>
-                <div className=" flex flex-col w-full p-3 gap-3">
+                <div className=" flex flex-col w-full p-3 gap-1">
                     <div className="flex justify-between">
-                        <h1 className="text-xl text-blue-600">
+                        <h1 className="text-xl font-bold text-blue-600">
                             {product.title}
                         </h1>
                         <p className="text-yellow-500">★{product.rating}</p>
 
                     </div>
                     <div className="flex justify-between">
-                        <p>{product.category}</p>
-                        <p>{product.brand}</p>
+                        <p className="text-gray-500">{product.category}</p>
+                        <p className="text-gray-500">{product.brand}</p>
 
                     </div>
-                    <p className="text-xl text-blue-600 font-bold">₹:{product.price}</p>
+                    <p className="text-xl text-blue-600">₹:{product.price}</p>
                     <button
                         onClick={() => handleAddToCart(product.id)}
                         disabled={isAdded}

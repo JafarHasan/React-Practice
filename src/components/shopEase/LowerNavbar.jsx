@@ -16,15 +16,15 @@ const LowerNavbar = () => {
                     <input
                         value={search}
                         onChange={(e) => setSearch(e.target.value)}
-                        placeholder="Search Product........."
-                        className="w-full p-4 outline-0 border border-gray-400 rounded-xl text-sm"
+                        placeholder="Search title,brand,category........."
+                        className="w-full p-4 bg-white border border-gray-400 rounded-xl text-sm"
                     ></input>
                 </div>
                 <div>
                     <select
                         value={sortBy}
                         onChange={(e) => setSortBy(e.target.value)}
-                        className="w-full p-4 ouline-0 border border-gray-400 text-sm">
+                        className="w-full p-4 ouline-0 border border-gray-400 text-sm bg-white">
                         <option value="default">Default</option>
                         <option value="price-low-high">Price: Low to High</option>
                         <option value="price-high-low">Price: High to Low</option>
@@ -34,22 +34,22 @@ const LowerNavbar = () => {
                 <div className="flex flex-col md:flex-row gap-3">
                     <button
                         onClick={() => setCategory("all")}
-                        className={`p-2  rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'all' ? "bg-blue-700 text-white " : "text-gray-500 bg-gray-200"}`}
+                        className={`p-2  rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'all' ? "bg-blue-700 text-white " : "text-gray-500 bg-white border"}`}
                     >All Products</button>
 
                     <button
                         onClick={() => setCategory("clothing")}
-                        className={`p-2  rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'clothing' ? "bg-blue-700 text-white " : "text-gray-500 bg-gray-200"}`}
+                        className={`p-2  rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'clothing' ? "bg-blue-700 text-white " : "text-gray-500 bg-white border"}`}
                     >Clothing</button>
 
                     <button
                         onClick={() => setCategory("electronics")}
-                        className={`p-2  rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'electronics' ? "bg-blue-700 text-white " : "text-gray-500 bg-gray-200"}`}
+                        className={`p-2  rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'electronics' ? "bg-blue-700 text-white " : "text-gray-500 bg-white border"}`}
                     >Electronics</button>
 
                     <button
                         onClick={() => setCategory("accessories")}
-                        className={`p-2  rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'accessories' ? "bg-blue-700 text-white " : "text-gray-500 bg-gray-200"}`}
+                        className={`p-2  rounded-xl  hover:bg-blue-700 hover:text-white text-sm ${category === 'accessories' ? "bg-blue-700 text-white " : "text-gray-500 bg-white border"}`}
                     >Accessories</button>
                 </div>
             </nav>

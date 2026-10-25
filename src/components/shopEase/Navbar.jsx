@@ -9,7 +9,7 @@ const Navbar = () => {
     } = useContext(ProductContext);
     return (
         <>
-            <nav className="p-5 m-5 shadow flex items-center justify-between">
+            <nav className="p-5 px-10 shadow flex items-center justify-between bg-white">
                 <div>
                     <h1 className="text-xl text-blue-700 font-bold">ShopEase</h1>
                     <p className="text-gray-500">Product Store</p>
