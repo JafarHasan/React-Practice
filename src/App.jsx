@@ -5,6 +5,7 @@ import Gallery from "./components/image_gallery";
 import Home from "./components/shopEase/Home";
 import { ProductProvider } from "./components/shopEase/contextSwitching/ProductContext";
 import Stepper from "./components/Stepper";
+import POGHome from "./assets/peopleOfGot/Home";
 const App = () => {
   return (
     <>
@@ -15,7 +16,8 @@ const App = () => {
       {/* <Counter /> */}
       {/* <Todo2 /> */}
       {/* <Gallery /> */}
-      <Stepper />
+      {/* <Stepper /> */}
+      <POGHome />
     </>
   )
 }

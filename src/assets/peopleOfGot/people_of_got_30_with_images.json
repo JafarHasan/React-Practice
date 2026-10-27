@@ -1,0 +1,516 @@
+[
+  {
+    "id": 1,
+    "name": "Jon Snow",
+    "actor": "Kit Harington",
+    "house": "Stark",
+    "status": "Alive",
+    "age": 24,
+    "titles": [
+      "King in the North",
+      "Lord Commander"
+    ],
+    "roles": [
+      "Warrior",
+      "Leader"
+    ],
+    "region": "The North",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Jon_Snow.PNG"
+  },
+  {
+    "id": 2,
+    "name": "Daenerys Targaryen",
+    "actor": "Emilia Clarke",
+    "house": "Targaryen",
+    "status": "Deceased",
+    "age": 23,
+    "titles": [
+      "Queen of the Andals",
+      "Mother of Dragons"
+    ],
+    "roles": [
+      "Queen",
+      "Warrior"
+    ],
+    "region": "Dragonstone",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Daenerys_Targaryen.PNG"
+  },
+  {
+    "id": 3,
+    "name": "Tyrion Lannister",
+    "actor": "Peter Dinklage",
+    "house": "Lannister",
+    "status": "Alive",
+    "age": 39,
+    "titles": [
+      "Hand of the Queen"
+    ],
+    "roles": [
+      "Advisor",
+      "Lord"
+    ],
+    "region": "Westerlands",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Tyrion_Lannister.PNG"
+  },
+  {
+    "id": 4,
+    "name": "Arya Stark",
+    "actor": "Maisie Williams",
+    "house": "Stark",
+    "status": "Alive",
+    "age": 18,
+    "titles": [
+      "No One"
+    ],
+    "roles": [
+      "Warrior",
+      "Assassin"
+    ],
+    "region": "The North",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Arya_Stark_HBO.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Sansa Stark",
+    "actor": "Sophie Turner",
+    "house": "Stark",
+    "status": "Alive",
+    "age": 20,
+    "titles": [
+      "Queen in the North"
+    ],
+    "roles": [
+      "Queen",
+      "Leader"
+    ],
+    "region": "The North",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Sansa_Stark.PNG"
+  },
+  {
+    "id": 6,
+    "name": "Cersei Lannister",
+    "actor": "Lena Headey",
+    "house": "Lannister",
+    "status": "Deceased",
+    "age": 42,
+    "titles": [
+      "Queen of the Seven Kingdoms"
+    ],
+    "roles": [
+      "Queen",
+      "Leader"
+    ],
+    "region": "Westerlands",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Cersei_Lannister.png"
+  },
+  {
+    "id": 7,
+    "name": "Jaime Lannister",
+    "actor": "Nikolaj Coster-Waldau",
+    "house": "Lannister",
+    "status": "Deceased",
+    "age": 43,
+    "titles": [
+      "Kingslayer"
+    ],
+    "roles": [
+      "Knight",
+      "Warrior"
+    ],
+    "region": "Westerlands",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Jaime_Lannister.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Bran Stark",
+    "actor": "Isaac Hempstead Wright",
+    "house": "Stark",
+    "status": "Alive",
+    "age": 18,
+    "titles": [
+      "King of the Andals and the First Men"
+    ],
+    "roles": [
+      "King",
+      "Mystic"
+    ],
+    "region": "The North",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Bran_Stark.PNG"
+  },
+  {
+    "id": 9,
+    "name": "Ned Stark",
+    "actor": "Sean Bean",
+    "house": "Stark",
+    "status": "Deceased",
+    "age": 41,
+    "titles": [
+      "Lord of Winterfell",
+      "Hand of the King"
+    ],
+    "roles": [
+      "Lord",
+      "Leader"
+    ],
+    "region": "The North",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Eddard_Stark.PNG"
+  },
+  {
+    "id": 10,
+    "name": "Robb Stark",
+    "actor": "Richard Madden",
+    "house": "Stark",
+    "status": "Deceased",
+    "age": 19,
+    "titles": [
+      "King in the North"
+    ],
+    "roles": [
+      "King",
+      "Warrior"
+    ],
+    "region": "The North",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Robb_Stark.PNG"
+  },
+  {
+    "id": 11,
+    "name": "Theon Greyjoy",
+    "actor": "Alfie Allen",
+    "house": "Greyjoy",
+    "status": "Deceased",
+    "age": 24,
+    "titles": [
+      "Prince of Winterfell"
+    ],
+    "roles": [
+      "Warrior",
+      "Leader"
+    ],
+    "region": "Iron Islands",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Theon_Greyjoy.PNG"
+  },
+  {
+    "id": 12,
+    "name": "Yara Greyjoy",
+    "actor": "Gemma Whelan",
+    "house": "Greyjoy",
+    "status": "Alive",
+    "age": 28,
+    "titles": [
+      "Queen of the Iron Islands"
+    ],
+    "roles": [
+      "Queen",
+      "Warrior"
+    ],
+    "region": "Iron Islands",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Yara_Greyjoy.PNG"
+  },
+  {
+    "id": 13,
+    "name": "Joffrey Baratheon",
+    "actor": "Jack Gleeson",
+    "house": "Baratheon",
+    "status": "Deceased",
+    "age": 19,
+    "titles": [
+      "King of the Andals and the First Men"
+    ],
+    "roles": [
+      "King",
+      "Leader"
+    ],
+    "region": "Crownlands",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Joffrey_Baratheon.PNG"
+  },
+  {
+    "id": 14,
+    "name": "Stannis Baratheon",
+    "actor": "Stephen Dillane",
+    "house": "Baratheon",
+    "status": "Deceased",
+    "age": 49,
+    "titles": [
+      "King of the Andals and the First Men"
+    ],
+    "roles": [
+      "King",
+      "Warrior"
+    ],
+    "region": "Dragonstone",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Stannis_Baratheon.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Brienne of Tarth",
+    "actor": "Gwendoline Christie",
+    "house": "Other",
+    "status": "Alive",
+    "age": 32,
+    "titles": [
+      "Lady Commander of the Kingsguard"
+    ],
+    "roles": [
+      "Knight",
+      "Warrior"
+    ],
+    "region": "Stormlands",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Brienne_of_Tarth_HBO.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Samwell Tarly",
+    "actor": "John Bradley",
+    "house": "Other",
+    "status": "Alive",
+    "age": 25,
+    "titles": [
+      "Maester"
+    ],
+    "roles": [
+      "Advisor",
+      "Scholar"
+    ],
+    "region": "The Reach",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Samwell_Tarly.PNG"
+  },
+  {
+    "id": 17,
+    "name": "Petyr Baelish",
+    "actor": "Aidan Gillen",
+    "house": "Other",
+    "status": "Deceased",
+    "age": 45,
+    "titles": [
+      "Lord of Harrenhal"
+    ],
+    "roles": [
+      "Lord",
+      "Advisor"
+    ],
+    "region": "Riverlands",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Petyr_Baelish.PNG"
+  },
+  {
+    "id": 18,
+    "name": "Varys",
+    "actor": "Conleth Hill",
+    "house": "Other",
+    "status": "Deceased",
+    "age": 55,
+    "titles": [
+      "Master of Whisperers"
+    ],
+    "roles": [
+      "Advisor",
+      "Spy"
+    ],
+    "region": "Crownlands",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Varys.PNG"
+  },
+  {
+    "id": 19,
+    "name": "Sandor Clegane",
+    "actor": "Rory McCann",
+    "house": "Other",
+    "status": "Deceased",
+    "age": 45,
+    "titles": [
+      "The Hound"
+    ],
+    "roles": [
+      "Warrior",
+      "Knight"
+    ],
+    "region": "Crownlands",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Sandor_Clegane.PNG"
+  },
+  {
+    "id": 20,
+    "name": "Gregor Clegane",
+    "actor": "Hafthor Julius Bjornsson",
+    "house": "Other",
+    "status": "Deceased",
+    "age": 40,
+    "titles": [
+      "The Mountain"
+    ],
+    "roles": [
+      "Warrior",
+      "Knight"
+    ],
+    "region": "Westerlands",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Gregor_Clegane.png"
+  },
+  {
+    "id": 21,
+    "name": "Khal Drogo",
+    "actor": "Jason Momoa",
+    "house": "Other",
+    "status": "Deceased",
+    "age": 30,
+    "titles": [
+      "Khal"
+    ],
+    "roles": [
+      "Warrior",
+      "Leader"
+    ],
+    "region": "Essos",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Drogo_Proud.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Missandei",
+    "actor": "Nathalie Emmanuel",
+    "house": "Other",
+    "status": "Deceased",
+    "age": 25,
+    "titles": [
+      "Queen's Advisor"
+    ],
+    "roles": [
+      "Advisor",
+      "Translator"
+    ],
+    "region": "Naath",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Missandei.PNG"
+  },
+  {
+    "id": 23,
+    "name": "Grey Worm",
+    "actor": "Jacob Anderson",
+    "house": "Other",
+    "status": "Alive",
+    "age": 30,
+    "titles": [
+      "Commander of the Unsullied"
+    ],
+    "roles": [
+      "Warrior",
+      "Leader"
+    ],
+    "region": "Essos",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Grey_Worm.PNG"
+  },
+  {
+    "id": 24,
+    "name": "Jorah Mormont",
+    "actor": "Iain Glen",
+    "house": "Other",
+    "status": "Deceased",
+    "age": 50,
+    "titles": [
+      "Knight"
+    ],
+    "roles": [
+      "Knight",
+      "Warrior"
+    ],
+    "region": "The North",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Jorah_Mormont.PNG"
+  },
+  {
+    "id": 25,
+    "name": "Olenna Tyrell",
+    "actor": "Diana Rigg",
+    "house": "Other",
+    "status": "Deceased",
+    "age": 75,
+    "titles": [
+      "Queen of Thorns"
+    ],
+    "roles": [
+      "Lady",
+      "Advisor"
+    ],
+    "region": "The Reach",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Olenna_Tyrell.PNG"
+  },
+  {
+    "id": 26,
+    "name": "Margaery Tyrell",
+    "actor": "Natalie Dormer",
+    "house": "Other",
+    "status": "Deceased",
+    "age": 25,
+    "titles": [
+      "Queen of the Seven Kingdoms"
+    ],
+    "roles": [
+      "Queen",
+      "Leader"
+    ],
+    "region": "The Reach",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Margaery_Tyrell.PNG"
+  },
+  {
+    "id": 27,
+    "name": "Tywin Lannister",
+    "actor": "Charles Dance",
+    "house": "Lannister",
+    "status": "Deceased",
+    "age": 67,
+    "titles": [
+      "Lord of Casterly Rock",
+      "Hand of the King"
+    ],
+    "roles": [
+      "Lord",
+      "Leader"
+    ],
+    "region": "Westerlands",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Tywin_Lannister.PNG"
+  },
+  {
+    "id": 28,
+    "name": "Davos Seaworth",
+    "actor": "Liam Cunningham",
+    "house": "Other",
+    "status": "Alive",
+    "age": 50,
+    "titles": [
+      "Hand of the King"
+    ],
+    "roles": [
+      "Advisor",
+      "Knight"
+    ],
+    "region": "Stormlands",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Davos_Seaworth_HBO.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Oberyn Martell",
+    "actor": "Pedro Pascal",
+    "house": "Other",
+    "status": "Deceased",
+    "age": 42,
+    "titles": [
+      "The Red Viper"
+    ],
+    "roles": [
+      "Warrior",
+      "Lord"
+    ],
+    "region": "Dorne",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Oberyn_Martell.PNG"
+  },
+  {
+    "id": 30,
+    "name": "Melisandre",
+    "actor": "Carice van Houten",
+    "house": "Other",
+    "status": "Unknown",
+    "age": null,
+    "titles": [
+      "Red Priestess"
+    ],
+    "roles": [
+      "Advisor",
+      "Mystic"
+    ],
+    "region": "Asshai",
+    "image": "https://awoiaf.westeros.org/index.php/Special:FilePath/Melisandre.PNG"
+  }
+]
