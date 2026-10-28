@@ -6,6 +6,7 @@ import Home from "./components/shopEase/Home";
 import { ProductProvider } from "./components/shopEase/contextSwitching/ProductContext";
 import Stepper from "./components/Stepper";
 import POGHome from "./assets/peopleOfGot/Home";
+import TransferList from "./components/TransferList";
 const App = () => {
   return (
     <>
@@ -17,7 +18,8 @@ const App = () => {
       {/* <Todo2 /> */}
       {/* <Gallery /> */}
       {/* <Stepper /> */}
-      <POGHome />
+      {/* <POGHome /> */}
+      <TransferList />
     </>
   )
 }
