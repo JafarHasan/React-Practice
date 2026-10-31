@@ -7,6 +7,7 @@ import { ProductProvider } from "./components/shopEase/contextSwitching/ProductC
 import Stepper from "./components/Stepper";
 import POGHome from "./assets/peopleOfGot/Home";
 import TransferList from "./components/TransferList";
+import Typeahead from "./components/Typeahead";
 const App = () => {
   return (
     <>
@@ -19,7 +20,8 @@ const App = () => {
       {/* <Gallery /> */}
       {/* <Stepper /> */}
       {/* <POGHome /> */}
-      <TransferList />
+      {/* <TransferList /> */}
+      <Typeahead />
     </>
   )
 }
